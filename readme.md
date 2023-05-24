@@ -45,7 +45,7 @@
 2. 하단부에 Terminal 열고 $ git rm -r --cached 입력
 
 ---
-### chap01 수업내용 (2023.05.22)
+### chap01 수업내용 (2023.05.22) - 자바만 가지고도 구현이 가능한 프로그램 제작(~chap02)
 1. 한식,중식,일식 등 요리사를 만들 예정
 2. Chef 인터페이스생성
 3. void cook();을 가짐
@@ -53,24 +53,21 @@
 5. System.out.println 이클립스에서는 'sysout' , 인텔리제이에선 'sout'
 6. java 클래스 하나 생성 - JapaneseChef implements Chef
 7. java 클래스 하나 생성 - ChineseChef implements Chef
-
-
+---
+### 추가
 1. Restaurant 레스토랑 인터페이스 생성 (한식요리사-한국, 중식요리사-중국...)
 2. void order();를 가짐
 3. Course 인터페이스를 생성
 4. 한정식, 오마카세,중국코스요리 만들 수 있도록
 5. void combineMenu(); 코스요리 구성
-
-
+---
+### 추가
 1. FusionRestaurant 생성, Hotel 생성
 2. test폴더에 HotelTest 생성
-
-
 ---
-
-### chap02 수업내용(2023.05.22)
-1. HotelManager
-
+### chap02 수업내용(2023.05.22) - Bean팩토리 패턴 제작
+1. java패키지 생성 -> .config생성 -> java 클래스 HotelManager를 생성
+2. 생성만 해주는.. 인스턴스를 만들어주는 역할을하는 것
 
 ---
 ## 자바 옵션이 안 보이는 경우
@@ -83,3 +80,9 @@
 ## 복습
 1. HotelTest1코드 눌러서 호출흐름을 파악해보고
 2. 메모리 구조 그려보기
+
+---
+## chap03 수업내용 (2023.05.23)
+1. chap02 수업내용 복붙
+2. config생성
+3. 

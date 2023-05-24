@@ -11,19 +11,19 @@ public class HotelManager {
     public Chef chef(){
         // Chef chefBean = new KoreanChef(); // 힙에다 할당하여 주소를 리턴해주는 메소드
         // return chefBean;
-        return new JapaneseChef(); // 이 곳만 변경해주면 되도록
+        return new ChineseChef(); // 이 곳만 변경해주면 되도록
     }
 
     // 코스 객체 생성
     public Course course(){
         // Course courseBean = new KoreanCourse();// 힙에다 할당하여 주소를 리턴해주는 메소드
         // return courseBean;
-        return new JapaneseCourse(); // 이 곳만 변경해주면 되도록
+        return new ChineseCourse(); // 이 곳만 변경해주면 되도록
     }
 
     // 레스토랑 객체 생성
     public Restaurant restaurant(){
-        //Chef chefBean = new KoreanChef();
+        // Chef chefBean = new KoreanChef();
         // Course courseBean = new KoreanCourse();
         // Restaurant restaurantBean = new FusionRestaurant(chefBean, courseBean);
         // return restaurantBean;
